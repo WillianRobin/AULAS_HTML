@@ -1,0 +1,17 @@
+<!--
+
+ O L | L I - Tag's utilizadas para criar uma lista ordenado
+O L: ordenada 
+U L:não ordenada
+L I: Item da Lista
+DL: Lista Definida
+DT: O Que Vai ser Definido
+DD: Definição do Item
+<a heref=""></a>
+<HEADER>: Cabeçalho
+<footer>: Rodapé
+<MAIN>: Conteudo Principal
+<ARTICLE>: Conteudo Informativo
+<SECTION>: Não é de Grande Importancia
+<link rel="stylesheet" href="link do arquivo"> : conectar outros arquivos Exemplo: css
+<link rel="shortcut icon" href="link da imagem" type="image/x-icon"> : Icone do site

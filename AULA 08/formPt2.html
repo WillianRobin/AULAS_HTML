@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Pt2</title>
+</head>
+<body>
+  <form action="#">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+
+    <br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email">
+
+    <br><br>
+
+    <label for="listaUnidade"> Lista de Unidades:</label>
+    <select name="listaUnidade" id="listaUnidade">
+      <option value="Unidade" hidden > Unidades</option>
+      <option aria-placeholder="unidades">Unidades</option>
+      <option value="Santana "> Santana</option>
+      <option value="Santo_amaro"> Santo Amaro</option>
+      <option value="Itaquera"> Itaquera</option>
+      <option value="diadema"> Diademaa</option>
+    </select>
+
+    <br><br>
+
+    <p>DataList</p>
+
+    <input type="text"  list="unidadesIos" autocomplete="on" placeholder="Unidades" >
+
+    <datalist id="unidadesIos">
+      <option value="Santana"></option>
+      <option value="Santo Amaro"></option>
+      <option value="Itaquera"></option>
+      <option value="Diademaa"></option>
+    </datalist>
+
+    <br>
+    <input type="submit" value="Enviar">
+
+    
+  </form>
+</body>
+
+</html>

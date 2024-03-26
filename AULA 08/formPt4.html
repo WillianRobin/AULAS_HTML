@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+  <header>
+    <h1>Vagas Abertas</h1>
+  </header>
+  <form method="post" action="">
+    <fieldset>
+      <legend>Informe seus dados:</legend>
+
+      <label for="nome"> Nome:</label>
+      <input required type="text" id="nome" name="nome">
+
+      <br><br>
+
+      <label for="email"> E-mail: </label>
+      <input required type="email" id="email" name="email">
+
+      <br><br>
+
+      <label for="Endereço"> Endereço</label>
+      <input required type="text" id="Endereço" name="endereço">
+
+      <br><br>
+
+      <label for="CEP">CEP :</label>
+      <input required type="number" id="email" maxlength="10" placeholder="Ex. 01234-567" name="cep">
+
+      <br><br>
+
+      <label for="data">Data de Nacimento:</label>
+      <input type="date" id="data" name="data">
+
+      <br><br>
+
+      <label for="estado">Estado ode mora</label>
+      <select name="estado" id="estado" name="estado">
+        <option value="estado" hidden>Estados</option>
+        <option value="estado">São Paulo</option>
+        <option value="estado">Rio de Janeiro</option>
+        <option value="estado">Minas Gerais</option>
+        <option value="estado">Bahia</option>
+        <option value="estado">Acre</option>
+      </select>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <legend>O Porquê me Interesso?</legend>
+      <textarea required name="texto" id="texto" cols="30" rows="10" placeholder="Eu me interesso porque..."
+        maxlength="10">
+    </textarea>
+      <input type="submit" name="submit">
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

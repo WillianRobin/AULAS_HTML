@@ -1,0 +1,13 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(128, 128, 128, 0.396);
+}
+textarea{
+  background-color: rgba(128, 128, 128, 0.396);
+}
+input{
+  background-color: rgba(128, 128, 128, 0.396);
+}
+select{
+  background-color: rgba(128, 128, 128, 0.396);
+}
